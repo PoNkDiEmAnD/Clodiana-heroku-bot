@@ -8,6 +8,9 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'Clod!clodism') {
     	message.reply('Clodism is a religion based on a random image found a google with a dash of memes and a teaspoon of cringe');
+client.on('message', message => {
+    if (message.content === 'Clod!saysomthing') {
+    	message.reply('no stfu u nub');
   	}
 });
 
