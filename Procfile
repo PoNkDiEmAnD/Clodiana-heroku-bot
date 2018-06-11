@@ -1,1 +1,1 @@
-worker: Clodiana bot.js
+worker: node bot.js
