@@ -38,7 +38,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
         args = args.splice(1);
         switch(cmd) {
-            // !start
+            // Clod!start
             case 'start':
                 bot.sendMessage({
                     to: channelID,
@@ -46,6 +46,12 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 });
             break;
             // add any other commands here.
-         }
+          // Clod!say somthing
+            case 'say somthing':
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'No stfu <@' + userID +'>'
+                });
+            break;
      }
 });
