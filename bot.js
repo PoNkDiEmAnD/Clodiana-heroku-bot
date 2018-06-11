@@ -9,9 +9,8 @@ client.on('message', message => {
     if (message.content === 'Clod!clodism') {
     	message.reply('Clodism is a religion based on a random image found a google with a dash of memes and a teaspoon of cringe');
   	}
-client.on('message', message => {
-    if (message.content === 'Clod!say') {
-    	message.reply('no stfu u aint mah mom');
+    if (message.content === 'Clod!clodism') {
+    	message.reply('Clodism is a religion based on a random image found a google with a dash of memes and a teaspoon of cringe');
     }
 });
 
