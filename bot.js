@@ -7,10 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'Clod!ping') {
-    	message.reply('pong');
-client.on('message', message => {
-    if (message.content === 'Clod!clodism') {
-    	message.reply('Clodism is a religion/cult based on a image found randomly on goodle, with a dash of memes and a teaspoon of cringe');
+    	message.reply('pong')
   	}
 });
 
