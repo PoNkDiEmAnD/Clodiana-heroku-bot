@@ -1,0 +1,1 @@
+worker: Clodiana bot.js
